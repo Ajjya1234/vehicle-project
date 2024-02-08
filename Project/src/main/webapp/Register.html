@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: Blue;
+}
+
+#nav>#sub-nav{
+    width: 90%;
+    margin: 0 auto;  
+    display: flex;
+
+}
+
+#nav>#sub-nav>.logo>.svg1{
+    width: 20%;
+    fill: red;
+}
+
+#nav>#sub-nav>.logo{
+    height: 80px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+#nav>#sub-nav>.menu{
+    width: 40%;
+    height: 80px;
+}
+
+#nav>#sub-nav>.menu>ol{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#nav>#sub-nav>.menu>ol>li>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav>#sub-nav>.menu>ol>li>a:hover{
+    color: red;
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<section id="nav">
+ <nav id="sub-nav">
+ <div class="logo">
+ </div>
+
+            
+ <div class="menu">
+ <ol>
+ <li> <a href="Home.html">Home</a></li>
+ <li> <a href="Contact.html">contact</a></li>
+ <li> <a href="About.html">About us</a></li>
+ <li> <a href="#">|</a> </li>
+ <li> <a href="Register.html">Sign up</a></li>
+ <li> <a href="Login.html">Log in</a></li>
+ </ol>
+ </div>
+ </nav>
+ </section>
+ <br><br><br>
+ 
+ <h1 align="center">Please Registration here</h1><br>
+ 
+ <form action="Sign" align="center" method="" target=""> 
+
+<label>Enter first name</label><br>
+<input type="text" name="fname"><br>
+
+<label>Enter last name</label><br>
+<input type="text" name="lname"><br>
+
+<label>Enter email id</label><br>
+<input type="text" name="email"><br>
+
+<label>Enter pwd</label> <br>
+<input type="text" name="pass"><br>
+
+<label>Enter mobile no </label><br>
+<input type="number" name="mno"><br><br>
+
+<button type="submit">submit</button>
+</form>
+</body>
+</html>
